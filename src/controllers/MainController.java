@@ -1,15 +1,9 @@
 package controllers;
-import javafx.application.Application;
-import views.POSApplication;
+
+import views.PathApp;
+
 public class MainController {
-    public static void main(String[] args)
-    {
-        System.out.println("Starting ... ");
-
-
-
-        Application.launch(POSApplication.class, args);
-        System.out.println("Started ");
-
+    public static void main(String[] args) {
+        PathApp.main(args);
     }
 }
